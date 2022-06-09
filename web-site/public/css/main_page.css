@@ -1,0 +1,1286 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Didact Gothic", sans-serif;
+    margin: 0;
+    font-weight: 400;
+    background-color: #f6f8ff;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Zen Dots", cursive;
+    margin: 0;
+
+}
+
+.container {
+    width: 1095px;
+    margin-left: 175px;
+}
+
+.block {
+    background-color: #218d4f;
+    margin-left: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header start */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #218d4f;
+    height: 64px;
+}
+
+.header-logo {
+    height: 76px;
+    margin-left: -3px;
+    z-index: 1;
+}
+
+.header-row {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-tel {
+    font-family: "Zen Dots";
+    font-weight: 400;
+    font-size: 15px;
+    color: #f6f8ff;
+    word-spacing: 5px;
+}
+
+.header-nav {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.nav_link_active {
+    color: #272d2d;
+    text-decoration: none;
+    margin-right: 26px;
+}
+
+.nav_link {
+    margin-right: 26px;
+
+    color: #f6f8ff;
+    text-decoration: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.nav {
+    display: none;
+}
+
+/* Header end */
+
+
+/* Home start */
+
+
+.home-content {
+    width: 545px;
+    animation: slideUp 0.7s ease-in-out forwards;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateX(0px) scale(.2);
+    }
+    100% {
+        transform: translateX(0px) scale(1);
+    }
+}
+
+.home-heading {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    color: #f6f8ff;
+}
+
+.home-heading + * {
+    margin-top: 21px;
+}
+
+.mobile-text {
+    display: none;
+}
+
+.home-text {
+    height: 120.43px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: rgba(246, 248, 255, 0.9);
+}
+
+.home-text + * {
+    margin-top: 41px;
+}
+
+.home-btn {
+    display: flex;
+}
+
+.btn {
+    background-color: #218d4f;
+    border: solid #218d4f;
+    border-radius: 30px;
+    box-shadow: #0c2718 4px 4px 0 0;
+    color: #0c2718;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    margin-right: 31px;
+    height: 42px;
+    width: 206px;
+}
+
+.look {
+    background-color: #272d2d;
+    width: 158px;
+}
+
+.btn:hover {
+    background-color: #041b0e;
+}
+
+.btn:active {
+    box-shadow: #0c2718 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+/* Home end */
+
+/* About company start */
+.rectangle {
+    margin-left: 428px;
+    margin-top: -54px;
+    width: 252px;
+    height: 51px;
+    background: rgba(33, 141, 79, 0.43);
+    filter: blur(4px);
+
+}
+
+.about-company-title {
+    width: 296px;
+    height: 30px;
+    margin-left: 430px;
+    margin-top: -45px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+}
+
+.home {
+    position: relative;
+    height: 552px;
+    padding-top: 81px;
+    padding-bottom: 57px;
+    margin-bottom: -10px;
+    background: url("/images/home-img.jpg") no-repeat;
+
+}
+
+.about-company {
+    display: flex;
+    padding-top: 130px;
+    padding-bottom: 15px;
+    height: 658px;
+    background: url("/images/line.png") no-repeat;
+}
+
+.our-project {
+    display: flex;
+    padding-top: 722px;
+    padding-bottom: 18px;
+    height: 669px;
+    background: url("/images/lines2.png") no-repeat;
+}
+
+.our-advantages {
+    margin-top: 11px;
+    height: 437px;
+    background: url("/images/back-adv.png") no-repeat;
+}
+
+.about {
+    height: 600px;
+    align-items: center;
+}
+
+.about-company-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 28px;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header {
+    width: 298px;
+    height: 83px;
+    color: #272d2d;
+    font-family: "Didact Gothic";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 26px;
+    margin-top: -157px;
+}
+
+.info-content {
+    width: 354px;
+    height: 265px;
+    padding-top: 26px;
+    font-family: "Didact Gothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    color: rgba(39, 45, 45, 0.58);
+}
+
+.specialization {
+    display: flex;
+    flex-direction: column;
+}
+
+.specialization-header {
+    margin-top: 5px;
+    margin-left: -14px;
+    margin-bottom: -33px;
+    width: 195px;
+    height: 57px;
+    font-family: "Didact Gothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 26px;
+    color: #272d2d;
+}
+
+
+.specialization-content {
+    margin-top: 50px;
+    margin-left: -14px;
+}
+
+.builder {
+    padding-top: 5px;
+}
+
+.text {
+    font-family: "Didact Gothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    color: rgba(39, 45, 45, 0.58);
+    margin: 0;
+    margin-bottom: 44px;
+}
+
+.image-block {
+    width: 376px;
+    height: 302px;
+}
+
+.image-block:hover {
+    transform: scale(1.1, 1.1);
+    z-index: 9;
+}
+
+/* About company end */
+
+/* Our project start */
+
+.container-fluid {
+    height: 600px;
+    width: 1349px;
+    position: relative;
+    top: -697px;
+}
+
+.second {
+    margin-left: 600px;
+    margin-top: -24px;
+
+}
+
+.our-project-title {
+    width: 267px;
+    height: 30px;
+    margin-left: 649px;
+    margin-top: -46px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+}
+
+.our-projects {
+    margin-top: 39px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay {
+    opacity: 1;
+}
+
+.content-image {
+    width: 100%;
+    height: 490px;
+}
+
+.col-md-4 {
+    margin-left: -26px;
+    width: 375px;
+}
+
+.col-md-4:first-child {
+    width: 375px;
+}
+
+.col-md-4:last-child {
+    width: 375px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.content-details p {
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.fadeIn-bottom {
+    top: 80%;
+}
+
+.button-6 {
+    position: absolute;
+    left: 649px;
+    top: 18px;
+    align-items: center;
+    background-color: #ffffff;
+    border: 4px solid rgba(33, 141, 79, 0.5);
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(39, 45, 45, 0.78);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "Didact Gothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 137px;
+    height: 44px;
+}
+
+.button-6:hover,
+.button-6:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+    transform: translateY(-1px);
+}
+
+.button-6:active {
+    background-color: #f0f0f1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+
+/* Our projects end */
+
+
+/* Our advantages */
+.third {
+    margin-left: 417px;
+}
+
+.our-advantages-title {
+    width: 310px;
+    height: 30px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    margin-left: 454px;
+    margin-top: -47px;
+}
+
+.adv {
+    width: 377px;
+    font-size: 35px;
+    line-height: 26px;
+    color: rgba(39, 45, 45, 0.6);
+    margin-top: 53px;
+}
+
+.our-advantages-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 35px;
+}
+
+.features {
+    width: 195.75px;
+    color: #272d2d;
+}
+
+.features p {
+    padding-bottom: 7px;
+    font-family: "Didact Gothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    width: 191.72px;
+    margin-top: -13px;
+    box-shadow: inset 5em 1em rgba(246, 248, 255, 1);
+}
+
+span {
+    color: #218d4f;
+}
+
+b {
+    font-family: "Zen Dots";
+}
+
+.image-adv {
+    width: 485.35px;
+    height: 272px;
+    margin-top: -64px;
+}
+
+.image-adv:hover {
+    transform: scale(1.1, 1.1);
+    z-index: 9;
+}
+
+/* Our advantages end */
+
+/* Footer start */
+.footer {
+    background-color: #218d4f;
+    height: 120px;
+    display: flex;
+}
+
+.footer-block {
+    display: flex;
+    margin: 0;
+    height: 114px;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-logo {
+    margin-left: 858px;
+    margin-top: 5px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top: -23px;
+}
+
+.footer-info p {
+    font-family: 'Zen Dots';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #F6F8FF;
+    width: 172px;
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+    width: 35.2px;
+    height: 41.81px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 41.81px;
+    position: absolute;
+    left: 368px;
+
+}
+
+.mail p {
+    font-family: 'Zen Dots';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+
+}
+
+.tel {
+    display: flex;
+    flex-direction: column;
+    height: 43.81px;
+    width: 41.81px;
+    position: relative;
+    left: 641px;
+}
+
+.footer-icon {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 853px;
+    top: 9px;
+}
+
+.footer-icon i {
+    padding-bottom: 19px;
+}
+
+.footer-icon i:last-child {
+    padding-bottom: 0px;
+}
+
+/* Footer end */
+
+
+@media (max-width: 427px) {
+    .wrapper {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 427px) {
+    .container {
+        width: 80%;
+        margin: 0;
+        margin-left: 43px;
+    }
+
+    .block {
+        margin-left: 3px;
+    }
+}
+
+/* Header */
+@media (max-width: 427px) {
+    .header {
+        height: 35px;
+        overflow: hidden;
+    }
+
+    .header-row {
+        height: 35px;
+    }
+
+    .header-tel {
+        font-size: 5px;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .header-logo {
+        height: 48px;
+    }
+
+    img {
+        width: 50px;
+        height: 48px;
+    }
+}
+
+/* Home */
+@media (max-width: 427px) {
+    .home {
+        margin-top: -5px;
+        padding-top: 16px;
+        height: 204px;
+        background: url("/images/home-mobile-back.png") no-repeat;
+    }
+
+    .home-content {
+        width: 224px;
+    }
+
+    .home-heading {
+        font-size: 39.5px;
+        line-height: 47px;
+    }
+
+    .mobile-text {
+        display: flex;
+        margin-top: -9px;
+        text-align: center;
+        width: 194px;
+        height: 89px;
+        font-size: 13px;
+        line-height: 14px;
+        color: #F6F8FF;
+    }
+
+    .home-text {
+        display: none;
+    }
+
+    .home-btn {
+        margin-left: 34px;
+    }
+
+    .home-text + * {
+        margin-top: -15px;
+    }
+
+    .btn {
+        height: 21px;
+        width: 126px;
+        font-size: 12px;
+        line-height: 1px;
+    }
+
+    .look {
+        display: none;
+    }
+}
+
+/* About company */
+@media (max-width: 427px) {
+    .about-company {
+        background: url("/images/mobile-background.png") no-repeat;
+        height: 1115px;
+    }
+
+    .rectangle {
+        margin-left: 87px;
+        margin-top: -101px;
+        width: 147px;
+        height: 28px;
+    }
+
+    .about-company-title {
+        width: 136px;
+        height: 30px;
+        margin-left: 97px;
+        margin-top: -35px;
+        font-size: 18px;
+    }
+
+    .about-company-content {
+        flex-direction: column;
+        margin-top: 174px;
+        align-items: flex-start;
+    }
+
+    .info-header {
+        font-size: 24px;
+    }
+
+    .info-content {
+        width: 346px;
+        padding-top: 7px;
+        font-size: 17px;
+        height: 238px;
+    }
+
+    .specialization-header {
+        margin-left: 0px;
+        font-size: 24px;
+    }
+
+    .specialization-content {
+        margin-left: 15px;
+    }
+
+    .text {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .image-block {
+        width: 0;
+        margin-left: 17px;
+    }
+
+    .image-block img {
+        width: 278px;
+        height: 233px;
+    }
+}
+
+@media (min-width: 737px) and (max-width: 1344px) {
+    .container {
+        width: 70%;
+        margin-left: 175px;
+    }
+
+    .block {
+        margin-left: 3px;
+    }
+
+    .about-company {
+        background: url("/images/mobile-background.png") no-repeat;
+        height: 1006px;
+    }
+
+    .rectangle {
+        margin-left: 30%;
+        margin-top: -101px;
+        width: 212px;
+        height: 44px;
+    }
+
+    .about-company-title {
+        width: 224px;
+        height: 30px;
+        margin-left: 31%;
+        margin-top: -43px;
+        font-size: 27px;
+    }
+
+    .about-company-content {
+        flex-wrap: wrap;
+        margin-top: 194px;
+        margin-left: -133px;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .specialization {
+        margin-top: -155px;
+    }
+
+    .text {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .image-block {
+        margin-left: 50%;
+        margin-right: 50%;
+        margin-top: 102px;
+        flex: 1 100%;
+    }
+
+    .image-block img {
+        width: 429px;
+        height: 318px;
+    }
+}
+
+/* Our projects */
+@media (max-width: 427px) {
+    .container-fluid {
+        width: 100%;
+    }
+
+    .our-project {
+        height: 2165px;
+    }
+
+    .our-project-title {
+        height: 30px;
+        margin-left: 152px;
+        margin-top: -35px;
+        font-size: 18px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col-md-4 {
+        margin-left: 0;
+    }
+
+    .second {
+        margin-left: 120px;
+    }
+
+    .button-6 {
+        left: 126px;
+    }
+}
+
+/* Our advantages */
+@media (max-width: 427px) {
+    .our-advantages {
+        margin-top: 1px;
+    }
+
+    .third {
+        margin-left: 81px;
+    }
+
+    .our-advantages-title {
+        height: 30px;
+        margin-left: 109px;
+        margin-top: -35px;
+        font-size: 19px;
+        width: 0;
+    }
+
+    .adv {
+        font-size: 24px;
+        width: 210px;
+        margin-top: 26px;
+    }
+
+    .our-advantages-content {
+        flex-direction: column;
+        margin-top: 0;
+        align-items: flex-start;
+    }
+
+    .features p {
+        font-size: 18px;
+    }
+
+    .rating {
+        margin-top: -250px;
+        margin-left: 207px;
+    }
+
+    .rating p {
+        margin-bottom: -11px;
+    }
+
+    .rating img {
+        width: 82px;
+    }
+
+    .image-adv {
+        margin-top: 26px;
+        margin-left: -35px;
+        height: 224px;
+    }
+
+    .image-adv img {
+        width: 360.75px;
+        height: 204px;
+
+    }
+}
+
+@media (min-width: 737px) and (max-width: 1344px) {
+    .container-fluid {
+        width: 100%;
+    }
+
+    .our-project {
+        height: 1194px;
+    }
+
+    .our-project-title {
+        width: 224px;
+        height: 30px;
+        margin-left: 48%;
+        margin-top: -43px;
+        font-size: 27px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .col-md-4:first-child {
+        width: 50%;
+        margin-left: 4%;
+    }
+
+    .col-md-4:last-child {
+        width: 50%;
+    }
+
+    .col-md-4:nth-child(3) {
+        width: 50%;
+        margin-left: 4%;
+    }
+
+    .col-md-4 {
+        margin-left: -43px;
+        width: 50%;
+    }
+
+    .second {
+        margin-left: 43%;
+    }
+
+    .button-6 {
+        left: 48%;
+    }
+}
+
+/* Our advantages */
+@media (max-width: 427px) {
+    .our-advantages {
+        margin-top: 1px;
+    }
+
+    .third {
+        margin-left: 81px;
+    }
+
+    .our-advantages-title {
+        height: 30px;
+        margin-left: 109px;
+        margin-top: -35px;
+        font-size: 19px;
+        width: 0;
+    }
+
+    .adv {
+        font-size: 24px;
+        width: 210px;
+        margin-top: 26px;
+    }
+
+    .our-advantages-content {
+        flex-direction: column;
+        margin-top: 0;
+        align-items: flex-start;
+    }
+
+    .features p {
+        font-size: 18px;
+    }
+
+    .rating {
+        margin-top: -250px;
+        margin-left: 207px;
+    }
+
+    .rating p {
+        margin-bottom: -11px;
+    }
+
+    .rating img {
+        width: 82px;
+    }
+
+    .image-adv {
+        margin-top: 26px;
+        margin-left: -35px;
+        height: 224px;
+    }
+
+    .image-adv img {
+        width: 360.75px;
+        height: 204px;
+    }
+}
+
+/* Our advantages: 960px*/
+@media (min-width: 737px) and (max-width: 1344px) {
+    .our-advantages {
+        margin-top: 1px;
+        height: auto;
+    }
+
+    .our-advantages-title {
+        width: 224px;
+        height: 30px;
+        margin-left: 37%;
+        margin-top: -43px;
+        font-size: 27px;
+    }
+
+    .adv {
+        margin-left: -78px;
+    }
+
+    .our-advantages-content {
+        margin-left: -59px;
+        flex-wrap: wrap;
+        margin-top: 9px;
+    }
+
+    .features {
+        flex: 1;
+    }
+
+    .features p {
+        width: 230px;
+    }
+
+    .rating {
+
+        margin-left: 67px;
+    }
+
+    .rating p {
+        margin-bottom: 13px;
+    }
+
+    .image-adv {
+        height: 100%;
+        margin-top: auto;
+        margin-left: 9%;
+    }
+
+    .image-adv img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Footer */
+@media (max-width: 427px) {
+    .footer {
+        height: 87px;
+        overflow: hidden;
+    }
+
+    .footer-block {
+        height: 96px;
+    }
+
+    .footer-info img {
+        width: 17px;
+        height: 48px;
+    }
+
+    .footer-info p {
+        font-size: 7px;
+        width: 115px;
+    }
+
+    .mail {
+        left: 136px;
+        top: 18px;
+    }
+
+    .tel {
+        left: 200px;
+        top: 3px;
+    }
+
+    .footer-icon {
+        display: flex;
+        flex-direction: row;
+        left: 34px;
+        top: 34px;
+    }
+
+    .footer-icon img {
+        width: 21px;
+    }
+
+    .footer-icon i {
+        padding-right: 17px;
+    }
+
+    .footer-logo {
+        margin-left: 112px;
+        margin-top: 43px;
+    }
+
+    .footer-logo img {
+        width: 53px;
+        height: 37px;
+    }
+}
+
+/* Footer: 960 */
+@media (min-width: 737px) and (max-width: 1344px) {
+    .footer {
+        height: 87px;
+        overflow: hidden;
+    }
+
+    .footer-block {
+        height: 96px;
+        margin-left: -120px;
+    }
+
+    .footer-info img {
+        width: 27px;
+        height: 48px;
+    }
+
+    .footer-info p {
+        font-size: 11px;
+        width: 173px;
+    }
+
+    .mail {
+        left: 265px;
+    }
+
+    .tel {
+        left: 433px;
+    }
+
+    .footer-icon {
+        display: flex;
+        flex-direction: row;
+        left: 192px;
+        top: 34px;
+    }
+
+    .footer-icon img {
+        width: 21px;
+    }
+
+    .footer-icon i {
+        padding-right: 17px;
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+
+}

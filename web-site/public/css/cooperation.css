@@ -1,0 +1,488 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@500;600;700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: "Didact Gothic", sans-serif;
+    margin: auto;
+    font-weight: 400;
+    background-color: #f6f8ff;
+}
+
+h1 {
+    font-family: "Zen Dots", cursive;
+    margin: 0;
+}
+
+.container {
+    width: 1095px;
+    margin-left: 175px;
+}
+
+.block {
+    background-color: #218d4f;
+    margin-left: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.nav_link_active {
+    color: #272d2d;
+    text-decoration: none;
+    margin-right: 26px;
+}
+
+/* Header start */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #218d4f;
+    height: 64px;
+}
+
+.header-logo {
+    height: 76px;
+    margin-left: -3px;
+    z-index: 1;
+}
+
+.header-row {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-tel {
+    font-family: "Zen Dots";
+    font-weight: 400;
+    font-size: 15px;
+    color: #f6f8ff;
+    word-spacing: 5px;
+}
+
+.header-nav {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.nav_link_active {
+    color: #272d2d;
+    text-decoration: none;
+    margin-right: 26px;
+}
+
+.nav_link {
+    margin-right: 26px;
+
+    color: #f6f8ff;
+    text-decoration: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.nav {
+    display: none;
+}
+
+/* Header end */
+
+.contacts-content {
+    border: 2px solid #272d2d26;
+    height: 666px;
+    background: url("/images/contact-back.png") no-repeat;
+    z-index: -1;
+}
+
+.home-heading {
+    font-family: "Jura";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 83px;
+    letter-spacing: 0.07em;
+}
+
+.main-block {
+    display: flex;
+    margin-top: 60px;
+}
+
+.home-content {
+    max-width: 606px;
+    max-height: 456px;
+}
+
+.home-text {
+    width: 544px;
+    font-family: "Didact Gothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    margin-top: -20px;
+}
+
+ .alert-danger{
+    font-family: "Didact Gothic";
+    font-size: 20px;
+    color: #cd0b0b;
+}
+
+.name {
+    display: flex;
+    margin-bottom: 74px;
+}
+
+.name-title {
+    font-family: "Didact Gothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(39, 45, 45, 0.7);
+    text-decoration: underline;
+    width: 154px;
+}
+
+.email {
+    display: flex;
+    margin-bottom: 74px;
+}
+
+.email-title {
+    font-family: "Didact Gothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(39, 45, 45, 0.7);
+    text-decoration: underline;
+}
+
+.message {
+    display: flex;
+}
+
+.errorMsg {
+    margin-top: -5px;
+    font-size: 20px;
+    text-align: center;
+    color: #218d4f;
+}
+
+.message-title {
+    font-family: "Didact Gothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(39, 45, 45, 0.7);
+    text-decoration: underline;
+}
+
+.formOkMsg {
+    font-size: 25px;
+    text-align: center;
+}
+
+.formOkMsg a {
+    color: #218d4f;
+    font-weight: 600;
+}
+
+.input-class {
+    margin-top: -2px;
+}
+
+.name-class input {
+    margin-top: -2px;
+    width: 432px;
+}
+
+.input-message input {
+    margin-top: -2px;
+    width: 454px;
+}
+
+input {
+    height: 26px;
+    font-size: 20px;
+    font-family: "Didact Gothic";
+    font-style: normal;
+    font-weight: 400;
+    width: 532px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(39, 45, 45, 0.65);
+    background: #f6f8ff;
+}
+
+.button-6 {
+    top: 40px;
+    align-items: center;
+    background-color: #272d2d;
+    border: 4px solid rgba(39, 45, 45, 1);
+    border-radius: 0.25rem;
+    box-shadow: rgba(245, 245, 245, 0.788) 0 1px 3px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "Jura";
+    font-style: normal;
+    font-size: 28px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 587px;
+    height: 61px;
+}
+
+.button-6:hover,
+.button-6:focus {
+    border-color: rgba(65, 62, 62, 0.514);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-6:hover {
+    transform: translateY(-1px);
+}
+
+.button-6:active {
+    background-color: #f0f0f1;
+    border-color: #f0f0f1;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+.contacts-info {
+    margin-top: 53px;
+    margin-left: 161px;
+}
+
+.contacts-heading {
+    font-family: "Zen Dots";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #f6f8ff;
+}
+
+.contacts-block {
+    margin-top: 37px;
+    font-family: "Zen Dots";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #f6f8ff;
+}
+
+.contacts-block p {
+    margin-left: 46px;
+    margin-top: 17px;
+}
+
+.adress {
+    display: flex;
+    margin-bottom: 54px;
+}
+
+.mail {
+    display: flex;
+    margin-bottom: 54px;
+}
+
+.tel {
+    display: flex;
+
+}
+
+.footer-icon {
+    display: flex;
+}
+
+.footer-icon i {
+    margin-right: 18px;
+}
+
+.footer-text {
+    margin-top: 11px;
+    margin-left: -10px;
+    font-family: 'Zen Dots';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.social-icon {
+    position: relative;
+    left: 1199px;
+    top: 37px;
+    display: flex;
+    flex-direction: column;
+    width: 139px;
+}
+
+
+@media (max-width: 520px) {
+    .container {
+        width: 80%;
+        margin: 0;
+        margin-left: 15%;
+    }
+
+    .block {
+        margin-left: 3px;
+    }
+}
+
+/* Header */
+@media (max-width: 520px) {
+    .header {
+        height: 35px;
+        overflow: hidden;
+    }
+
+    .header-row {
+        height: 35px;
+    }
+
+    .header-tel {
+        font-size: 10px;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .header-logo {
+        height: 48px;
+    }
+
+    img {
+        width: 50px;
+        height: 48px;
+    }
+}
+
+@media (max-width: 520px) {
+    .main-block {
+        margin-top: 24px;
+    }
+
+    .home-content {
+        width: 331px;
+    }
+
+    .home-heading {
+        font-size: 45px;
+        line-height: 47px;
+        text-align: center;
+    }
+
+    .home-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    input {
+        width: 100%;
+        height: 45px;
+    }
+
+    .name {
+        flex-direction: column;
+        margin-bottom: 52px;
+    }
+
+    .name-title {
+        text-decoration: none;
+    }
+
+    .name-class input {
+        margin-top: -2px;
+        width: 100%;
+        height: 45px;
+    }
+
+    .email {
+        flex-direction: column;
+        margin-bottom: 52px;
+    }
+
+    .email-title {
+        text-decoration: none;
+    }
+
+    .input-class {
+        margin-top: 4px;
+        width: 100%;
+        height: 45px;
+    }
+
+    .message {
+        flex-direction: column;
+    }
+
+    .message-title {
+        text-decoration: none;
+    }
+
+    .input-message {
+        margin-top: 4px;
+        width: 100%;
+        height: 45px;
+    }
+
+    .input-message input {
+        margin-top: 4px;
+        width: 100%;
+    }
+
+    .button-6{
+        width: 100%;
+        height: 23px;
+        font-size: 25px;
+    }
+
+    .contacts-info{
+        display: none;
+    }
+    .footer-icon{
+        display: none;
+    }
+    .social-icon{
+        left: 40%;
+        top: 158px;
+    }
+}
