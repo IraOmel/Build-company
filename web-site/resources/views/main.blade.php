@@ -3,7 +3,6 @@
 @section('title')
     Bulid company-МЖК Інжиніринг
 @endsection
-
 @section('style')
     <link rel="stylesheet" href={{asset('css/main_page.css')}} />
 @endsection
