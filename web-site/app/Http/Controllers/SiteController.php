@@ -32,7 +32,6 @@ class SiteController extends Controller
             'email' => 'required|email',
             'text' => 'required|max:250|min:5',
         ]);
-
         $contact = Contact::firstOrCreate(
             ['name' => $request->input('name'),
                 'email' => $request->input('email'),
