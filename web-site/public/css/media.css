@@ -1,4 +1,5 @@
-@media (max-width: 427px) {
+/* Mobile menu */
+@media (max-width: 660px) {
 .navbar {
     display: flex;
 }
