@@ -5,7 +5,6 @@
 @endsection
 
 @section('style')
-    {{--    <link rel="stylesheet" href={{asset('css/main_page.css')}} />--}}
     <link rel="stylesheet" href={{asset('css/projects.css')}} />
 @endsection
 
